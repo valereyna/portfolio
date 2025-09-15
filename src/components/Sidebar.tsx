@@ -103,7 +103,7 @@ const Sidebar: React.FC<SidebarProps> = ({ portfolioData, currentPage, setCurren
           ${isMobile 
             ? (isMobileMenuOpen 
                 ? 'translate-x-0 w-full pt-16 pointer-events-auto' 
-                : '-translate-x-full pt-16 pointer-events-none') 
+                : '-translate-x-full w-full pt-16 pointer-events-none') 
             : ''
           }`}
       >

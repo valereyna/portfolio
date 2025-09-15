@@ -97,7 +97,7 @@ const Sidebar: React.FC<SidebarProps> = ({ portfolioData, currentPage, setCurren
         animate="visible"
         variants={sidebarVariants}
         className={`fixed top-0 left-0 h-full z-40 transition-all duration-300 ease-in-out md:translate-x-0 md:w-72 bg-slate-900 text-slate-200 flex flex-col shadow-2xl
-          ${isMobileMenuOpen ? 'translate-x-0 w-full pt-16' : '-translate-x-full w-full pt-16 md:pt-0 md:translate-x-0'}`}
+          ${isMobileMenuOpen ? 'translate-x-0 w-full pt-16' : '-translate-x-full pt-16 md:pt-0 md:translate-x-0'}`}
       >
         <div className="flex-shrink-0 p-6 text-center border-b border-slate-700 hidden md:block">
           <img 

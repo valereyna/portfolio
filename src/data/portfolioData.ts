@@ -13,10 +13,10 @@ export const portfolioData: PortfolioData = {
   name: "Valereyna J", 
   title: "Aspiring Web Developer & ERP Enthusiast",
   tagline: "I am a fresh Information Systems graduate currently interning as an Oracle Developer at PT Enseval Putera Megatrading (Kalbe Group). With a strong academic foundation and hands-on experience in both enterprise systems and web development, I am passionate about building innovative digital solutions that enhance business processes and user experiences. While my current focus is on Oracle technologies and ERP systems, I continue to explore web development projects to strengthen my full-stack development skills.",
-  shortBio: "Fresh Graduate | Web Dev | ERP", // For sidebar
-  location: "Jakarta, Indonesia", // For sidebar
-  profileImage: "/profile_photo.jpg", // For Hero and Sidebar
-  cvLink: "/CV_Valereyna.pdf", // Link to your CV PDF
+  shortBio: "Fresh Graduate | Web Dev | ERP", 
+  location: "Jakarta, Indonesia", 
+  profileImage: "/profile_photo.jpg", 
+  cvLink: "/CV_ValereynaJK.pdf",  
   about: { 
     bio: "I am a dedicated and enthusiastic Information Systems graduate with a strong foundation in software development, databases, and enterprise systems. Currently, I am interning as an Oracle Developer at PT Enseval Putera Megatrading (Kalbe Group), where I work on ERP-related solutions and business process optimization. Alongside my ERP and Oracle development experience, I have a keen interest in full-stack web development and continue to build projects that enhance both my technical expertise and problem-solving skills. I am passionate about applying technology to solve real-world challenges, whether through enterprise applications, data-driven insights, or modern web solutions. As a quick learner and collaborative team player, I am always seeking opportunities to grow, take on new challenges, and contribute to impactful projects in a dynamic environment.",
     details: [
@@ -58,11 +58,11 @@ export const portfolioData: PortfolioData = {
       technologies: ["Laravel", "FilamentPHP", "Livewire", "Tailwind CSS", "MySQL", "PHP"],
       keyFeatures: ["Advanced Admin Panel (Filament)", "Product Catalog Management", "User Authentication & Profiles", "Shopping Cart & Wishlist", "Order Processing & Management", "Payment Gateway Integration (Conceptual)"],
       challengesAndSolutions: "Integrating various FilamentPHP components to create a seamless admin experience while maintaining performance was a key challenge. This was addressed by carefully structuring resources and leveraging Filament's customization options. Ensuring robust security for user data and transactions was paramount, involving best practices in Laravel for data validation, sanitization, and protection against common web vulnerabilities.",
-      link: "https://github.com/valereyna/SKZOO-WebProg", // Replace
-      liveDemoLink: "https://drive.google.com/file/d/1QFx0_dWdXlYjXWHXudIaFtgKyXWUkvUv/view?usp=sharing", // Replace if you have a live demo
-      image: "/skzoo-1.jpg", // Main project image
-      icon: Briefcase, // Lucide icon for project card
-      detailedFeatures: [ // NEW: Add detailed features with screenshots
+      link: "https://github.com/valereyna/SKZOO-WebProg", 
+      liveDemoLink: "https://drive.google.com/file/d/1QFx0_dWdXlYjXWHXudIaFtgKyXWUkvUv/view?usp=sharing", 
+      image: "/skzoo-1.jpg", 
+      icon: Briefcase, 
+      detailedFeatures: [ 
         {
           featureTitle: "Admin Dashboard & Product Management",
           featureDescription: "The FilamentPHP admin panel provides a comprehensive dashboard for site analytics, user management, and detailed product management. Admins can easily add, edit, and categorize products, manage stock levels, and set pricing.",
